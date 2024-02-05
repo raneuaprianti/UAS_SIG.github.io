@@ -1,0 +1,55 @@
+body{
+    background-color: aquamarine;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.menu{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    height: 70px;
+    width: 100%;
+    background: black;
+    border-radius: 5px;
+    font-size: 18px;
+}
+label{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20pt;
+    color: white;
+    margin: 10px;
+    padding: 5px;
+    float: left;
+}
+.menu ul{
+    margin: 0px;
+    padding: 5px;
+    background: none;
+    display: block;
+    float: right;
+}
+.menu ul li {
+    list-style: none;
+    display: inline-block;
+}
+.menu ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+}
+.menu ul li a:hover{
+    display: block;
+    color: aqua;
+    background: black;
+    box-shadow: inset 0px 0px 5px #000;
+}
+.menu ul li .dropdown{
+    display: none;
+}
+.menu ul li:hover .dropdown{
+    display: block;
+    background: black;
+    position: absolute;
+    padding: 10px;
+}
